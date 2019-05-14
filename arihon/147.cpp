@@ -1,21 +1,36 @@
 #include <iostream>
+#include <iomanip>
 #include <vector>
+#include <set>
+#include <map>
 #include <queue>
+#include <deque>
 #include <algorithm>
 #include <cmath>
-#include <iomanip>
-#include <map>
-#include <deque>
-#include <set>
-#include <string.h>
+#include <cstring>
+
 using namespace std;
 
 #define REP(i,n) for(int i = 0; i < n; i++)
+#define RREP(i,n) for(int i = n - 1; i >= 0; i--)
+
 #define ALL(v) v.begin(),v.end()
+#define pb push_back
+#define mp make_pair
+#define F first
+#define S second
+
+#define UNIQUE(v) v.erase( unique(v.begin(), v.end()), v.end() );
+
+#define y0 y3487465
+#define y1 y8687969
+
+#define m0(x) memset(x,0,sizeof(x))
+#define m1(x) memset(x,63,sizeof(x))
+
 typedef long long ll;
 typedef pair<int,int> pi;
 typedef pair<ll,ll> pll;
-typedef pair<string,string> pss;
 typedef vector<int> vi;
 typedef vector<vi> vvi;
 typedef vector<pi> vpi;
