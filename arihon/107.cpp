@@ -20,7 +20,8 @@ using namespace std;
 #define F first
 #define S second
 
-#define UNIQUE(v) v.erase( unique(v.begin(), v.end()), v.end() );
+#define UNIQUE(v) do{sort(v.begin(), v.end()); v.erase( unique(v.begin(), v.end()), v.end() );} while(0)
+
 
 #define y0 y3487465
 #define y1 y8687969
